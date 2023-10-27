@@ -1,0 +1,25 @@
+/* Defina o estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo da linha de cabeçalho da tabela */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo da classe condicional para registros fora do escopo */
+.out-of-scope {
+    color: red; /* Cor vermelha para valores fora do escopo */
+    font-weight: bold; /* Texto em negrito */
+}
